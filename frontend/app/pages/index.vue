@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>My Blog</h1>
+<NuxtLink to="/search" class="search-btn">🔍 Search Posts</NuxtLink>
 
     <select v-model="selectedCategory">
       <option value="">All Categories</option>
